@@ -1,4 +1,4 @@
-# Crypty
+# Crytocurrency Data Science Project
 
 ## Contributors:
 * Andy Vu-Hoang
