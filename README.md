@@ -7,7 +7,7 @@
 * Zachary Valery
 
 ## Abstract
-Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We intend to gather all this data through different coin exchange's API's and compilng it into one dataframe.  As a next step, we will evaluate and interperet the data trying to identify market trends which influenced the rise and fall of the currencies and identifying correlations between different coins.  From here, we will investigate what insights this data can have of the future and would like to develop a model which can give an indication of the anticipated rise or fall of a coin.
+Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We intend to gather all this data through coinmarketcap's API.  As a next step, we will evaluate and interperet the data trying to identify market trends which influenced the rise and fall of the currencies and identifying correlations between different coins.  From here, we will investigate what insights this data can have of the future then develop multiple models to compare their effectiveness and accuracy.
 
 ## Technologies
 * Git: for team collaboration
