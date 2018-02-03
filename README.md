@@ -18,8 +18,20 @@ Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We i
 
 ### Week 3:
 * Start compiling and cleaning data
+* Get prices for stock market and cryptocurrencies
 
-### Week 4:
+### Weeks 4-6:
+* Exploratory data analysis
+* Correlations between price changes of different cryptocurrencies
+* Look at cryptocurrency price changes in relation to stock market dips
+* How do different cryptocurrencies recover from dips?
+
+### Week 7-10:
+* Model Building
+* LSTM Neural Networks
+* Logistic Regression
+
+
 
 
 
