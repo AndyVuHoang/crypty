@@ -13,7 +13,7 @@ Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We i
 * Git: for team collaboration
 * Python
    * Numpy: creating and manipulating multi-dimensional arrays and matrices
-   * Pandas: data manipulation and analysis, data scraping
+   * Pandas: data gathering, manipulation, and analysis
    * Matplotlib: data visualization
    * Scikit-learn: machine learning
    * Likely more packages as needed
