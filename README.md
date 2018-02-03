@@ -9,6 +9,15 @@
 ## Abstract
 Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We intend to gather all this data through different coin exchange's API's and compilng it into one dataframe.  As a next step, we will evaluate and interperet the data trying to identify market trends which influenced the rise and fall of the currencies and identifying correlations between different coins.  From here, we will investigate what insights this data can have of the future and would like to develop a model which can give an indication of the anticipated rise or fall of a coin.
 
+## Technologies
+* Git: for team collaboration
+* Python
+   * Numpy: creating and manipulating multi-dimensional arrays and matrices
+   * Pandas: data manipulation and analysis, data scraping
+   * Matplotlib: data visualization
+   * Scikit-learn: machine learning
+   * Likely more packages as needed
+
 ## Project Schedule:
 ### Week 1:
 * Create a project idea and form group.
@@ -26,10 +35,11 @@ Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We i
 * Look at cryptocurrency price changes in relation to stock market dips
 * How do different cryptocurrencies recover from dips?
 
-### Weeks 7-10:
+### Weeks 7 and On:
 * Model Building
-* LSTM Neural Networks
+* Time series analysis
 * Logistic Regression
+* LSTM Neural Networks
 
 
 
