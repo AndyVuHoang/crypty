@@ -1,5 +1,7 @@
 # Crytocurrency Data Science Project
 
+![](https://i.imgur.com/vq7g2xQ.png)
+
 ## Contributors:
 * Andy Vu-Hoang
 * Arjun Umashankkar
