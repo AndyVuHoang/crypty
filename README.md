@@ -3,13 +3,11 @@
 ![](https://i.imgur.com/vq7g2xQ.png)
 
 ## Contributors:
-* Andy Vu-Hoang
-* Arjun Umashankkar
-* Dorothy Li
+* Andy Vu Hoang
 * Zachary Valery
 
 ## Abstract
-Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We intend to gather all this data through coinmarketcap's API.  As a next step, we will evaluate and interperet the data trying to identify market trends which influenced the rise and fall of the currencies and identifying correlations between different coins.  From here, we will investigate what insights this data can have of the future then develop multiple models to compare their effectiveness and accuracy.
+In this project, we sought to analyze cryptocurrencies in the context of a data science project. The first step was gathering data on what we arbitrarily identified as the top 25 cryptocurrencies.   We then conducted data analysis on those cryptocurrency data sets by creating graphics which included all of the currencies we were lookin at and a correlation analysis.  We also conducted a time series analysis on the data.  Then we implimented a model in accordance with the the analysis which was condiucted
 
 ## Technologies
 * Git: for team collaboration
@@ -18,37 +16,14 @@ Firstly, we would like to accumulate data for the top 25 cryprocurrencies.  We i
    * Pandas: data gathering, manipulation, and analysis
    * Matplotlib: data visualization
    * Scikit-learn: machine learning
-   * Likely more packages as needed
+   * Pickle for data gathering
 
-## Project Schedule:
-### Week 1:
-* Create a project idea and form group.
+## Data Gathering
+To get data for bitcoin prices in particular, we used Kraken, Coinbase, Itbit, Bitstamp, and poloniex's API data and merged it into one data frame to get really complete data. Then for the other 24 cryptocurrencies, we used only poloniex's data because it was sufficient.  We then did some cleaning to the data to get it into a form which we could put it into one big graph.
 
-### Week 2:
-* Create the README file on Github and schedule weekly group meeting time to work on project.
+## Data Analysis
+Our main analysis of the data for this project was an extensive correlation analysis of the various cryptocurrencies used.  Not only did we analyze the correlation between the currencies but we analyzed the correlation between the average daily price of each cryptocurrency with the average price of the previous day in order to see if the price of one currency the day before has and influence on the price of another one the next day.  We found that they were not significantly correlated.  We also identified that Bitcoin and Litecoin were two of the most correlated cryptocurrencies and three currencies which were tightly correlated are Siacoin, Digibite, and 0x.
 
-### Week 3:
-* Start compiling and cleaning data
-* Get prices for stock market and cryptocurrencies
-
-### Weeks 4-6:
-* Exploratory data analysis
-* Correlations between price changes of different cryptocurrencies
-* Look at cryptocurrency price changes in relation to stock market dips
-* How do different cryptocurrencies recover from dips?
-
-### Weeks 7 and On:
-* Model Building
-* Time series analysis
-* Logistic Regression
-* LSTM Neural Networks
-
-
-
-
-
-
-
-
-
-
+## Monte Carlo Simulation
+In order to predict the future price trends for specific cryptocurrencies and understand the cryptocurrency market better, we decided to use a common tool for prediction of stock prices and quantifying risk: Monte Carlo simulations. These simulations assume that daily returns are a random variable which is normal distributed and centered around a mean of 0. From running them, the volatility of cryptocurrency can be made obviously clear, as the range for which the prices can be within just 30 days is significantly large.
+   
