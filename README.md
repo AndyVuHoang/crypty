@@ -5,6 +5,7 @@
 ## Contributors:
 * Andy Vu Hoang
 * Zachary Valery
+* Arjun Umashankkar
 
 ## Abstract
 In this project, we sought to analyze cryptocurrencies in the context of a data science project. The first step was gathering data on what we arbitrarily identified as the top 25 cryptocurrencies.   We then conducted data analysis on those cryptocurrency data sets by creating graphics which included all of the currencies we were lookin at and a correlation analysis.  We also conducted a time series analysis on the data.  Then we implimented a model in accordance with the the analysis which was condiucted
